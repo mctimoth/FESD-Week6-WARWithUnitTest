@@ -1,4 +1,4 @@
-//warUnitTest.js for FESD Javascript Week6 - Final Profect - The Card Game WAR
+//war.js for FESD Javascript Week6 - Final Profect - The Card Game WAR
 //By:  Tim Gibney - FESD 11/2020
 
 // For the final project you will be creating an automated version of the classic card game WAR.
@@ -167,9 +167,9 @@ class Game {
                     this.winnerTakesTheCards("tie");
                 }
             }
-        }//end while loop
+        }
         this.displayScore();
-    }//end playGame method
+    }
 }
 
 //Program start
